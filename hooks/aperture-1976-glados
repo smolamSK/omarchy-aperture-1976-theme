@@ -1,0 +1,19 @@
+#!/bin/bash
+# Theme-set hook for Aperture 1976: GLaDOS comments on the decor.
+# The GLaDOS Voice plugin reads notifications aloud, so a notification is all
+# this needs to do (and it stays quiet when the plugin is muted).
+
+[[ $1 == "aperture-1976" ]] || exit 0
+
+lines=(
+  "Oh. Wood paneling. I had this facility sealed for a reason."
+  "Welcome to nineteen seventy six. The carpet is orange, the coffee is mandatory, and the safety record is a rumor."
+  "You have selected the decor from the era with the most lawsuits. Bold."
+  "Harvest gold and walnut. Somewhere, a test subject is being bounced into a ceiling to celebrate."
+  "Repulsion blue. Propulsion orange. Remember, neither of them is a beverage."
+  "Retro theme engaged. I have also restored the original asbestos. For authenticity."
+  "This color scheme was focus-grouped in nineteen seventy six. All members of the focus group are now gel."
+  "Theme applied. Please do not lick the enamel."
+)
+
+notify-send -a "Aperture Laboratories" "Aperture Laboratories" "${lines[RANDOM % ${#lines[@]}]}"

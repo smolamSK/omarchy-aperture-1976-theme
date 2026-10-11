@@ -1,0 +1,37 @@
+# Aperture 1976 — Aperture Laboratories, gel-testing era.
+# Walnut paneling, cream enamel, harvest gold, avocado, and the two gels:
+# repulsion blue and propulsion orange.
+mode = "dark"
+
+accent = "#e0782a"
+selection = "#4a3a2c"
+muted = "#6b5a48"
+
+background = "#2a211a"
+dark_background = "#211a14"
+darker_background = "#18130e"
+lighter_background = "#3a2e24"
+
+foreground = "#e8dcc0"
+dark_foreground = "#9c8b70"
+light_foreground = "#efe3c8"
+bright_foreground = "#f6eedb"
+
+red = "#dd6a50"
+yellow = "#d4a13a"
+orange = "#e0782a"
+green = "#8a9a3b"
+cyan = "#4fa39d"
+blue = "#4a9bb5"
+magenta = "#bf7f93"
+brown = "#7a4a2a"
+
+bright_red = "#e8775c"
+bright_yellow = "#e6b84e"
+bright_green = "#a3b34a"
+bright_cyan = "#62b8b1"
+bright_blue = "#62b1cc"
+bright_magenta = "#d093a6"
+
+# Repulsion gel to propulsion gel.
+hyprland_active_border = "rgba(4a9bb5ee) rgba(e0782aee) 45deg"
