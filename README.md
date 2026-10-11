@@ -40,8 +40,8 @@ The active window border is the gel gradient, `rgba(4a9bb5ee) rgba(e0782aee) 45d
 
 ## Files
 
-- `colors.toml`: the palette. Omarchy generates terminals, btop, neovim
-  (aether.nvim), helix and the rest from it.
+- `colors.toml`: the palette. Omarchy generates terminals, btop, Neovim
+  (aether.nvim), VS Code, helix and the rest from it.
 - `shell.toml`: Omarchy's shell template rendered with this palette, then
   hand-tuned. Opaque walnut cards, orange for anything asking for attention,
   harvest-gold selection, gel-gradient borders.
@@ -55,7 +55,6 @@ The active window border is the gel gradient, `rgba(4a9bb5ee) rgba(e0782aee) 45d
      card.
   2. **Gel blueprint**: chamber 07 cross section, gel delivery.
   3. **Brochure**: 1976 employee orientation, with racing stripes.
-- `vscode.json`: Gruvbox Dark Medium, the closest warm-brown scheme.
 - `keyboard.rgb`: propulsion orange.
 
 ## GLaDOS (optional)
